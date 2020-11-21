@@ -1,0 +1,37 @@
+#navbar {
+  border-bottom: 2px solid #222121;
+  opacity: 0.7; }
+  #navbar .nav-link {
+    font-size: 20px;
+    padding-right: 30px; }
+  #navbar .navbar-brand {
+    font-size: 30px; }
+
+#home {
+  background-image: url("../img/cover.jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  min-height: 500px;
+  background-attachment: fixed;
+  border-bottom: 2px solid #0b65db; }
+  #home .primary-overlay {
+    background: rgba(0, 0, 0, 0.9);
+    min-height: 500px; }
+
+#project .img-fluid {
+  border: 2px solid #007bff; }
+
+#project p {
+  font-size: 30px; }
+
+#media .fa {
+  font-size: 50px;
+  padding: 10px;
+  margin-top: 10px; }
+
+@media screen and (max-width: 576px) {
+  #home h3 {
+    font-size: 35px; }
+  #home h1 {
+    font-size: 60px; } }
